@@ -1,23 +1,23 @@
 methods:
-  - title: Air Delivery
+  - title: 空运
     icon: fas fa-plane-arrival
     url: /blog/welcome
     description: We have partnership with airlines company. We will be able to ship it worldwide
-  - title: Sea Delivery
+  - title: 海运
     icon: fas fa-ship
     url: /blog/welcome
     description: We have partnership with airlines company. We will be able to ship it worldwide
-  - title: Train Delivery
+  - title: 铁路
     icon: fas fa-train
     url: /blog/welcome
     description: We have partnership with airlines company. We will be able to ship it worldwide
-  - title: Truck Delivery
+  - title: 公路
     icon: fas fa-truck
     url: /blog/welcome
     description: We have partnership with airlines company. We will be able to ship it worldwide
 
 services:
-  - title: Storage
+  - title: 仓储
     icon: fas fa-boxes-stacked
     url: /blog/welcome
     description: "Voluptate nemo et nobis laudantium nihil reprehenderit. Et quis omnis sapiente atque aut sapiente. Ab atque aut quis"
@@ -35,7 +35,7 @@ services:
     description: "Voluptate nemo et nobis laudantium nihil reprehenderit. Et quis omnis sapiente atque aut sapiente. Ab atque aut quis"
 
 faq:
-  - title: welcome1
+  - title: 如何从中国运输到美国
     url: /blog/welcome1
   - title: welcome2
     url: /blog/welcome2

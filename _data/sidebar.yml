@@ -28,9 +28,9 @@
       url: /blog/welcome
     - title: 8
       url: /blog/welcome
-- title: About
+- title: 关于我们
   links:
-    - title: About
+    - title: 关于我们
       url: /blog/welcome
     - title: Privacy Policy
       url: /privacy-policy
