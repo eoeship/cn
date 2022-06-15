@@ -6,13 +6,17 @@
 <main>
     <div class="max-w-5xl mx-auto px-4 md:px-6 my-8 md:my-16">
         <div class="text-center mb-8">
-            <h1 class="text-4xl font-bold text-neutral-800">{{ page.title }}</h1>
+            <h1 class="text-5xl font-bold text-neutral-800">{{ page.title }}</h1>
             <p class="text-neutral-500 my-4">{{ page.date | date: "%b %d, %Y" }}</p>
             {% if page.cover %}
             <img class="w-full rounded" alt="" src="{{ page.cover }}">
             {% else %}
             <img class="w-full rounded" alt="" src="/images/cover_2_placeholder.svg">
             {% endif %}
+        </div>
+        <div class="md:px-20 mb-4">
+            <h2 class="text-lg">目录</h2>
+            {% include toc.html html=content %}
         </div>
         <div class="md:px-20 markdown-body">
             {{ content }}
